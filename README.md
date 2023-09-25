@@ -17,3 +17,10 @@ A simple python application of Todo List using Flask
 
 ## Edit Todo list
 ![editTodo](editTodo.png)
+
+## How to Run
+```
+pip3 install -r requirements.txt
+
+Python3 -m app.py
+```
