@@ -2,7 +2,9 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 import mysql.connector
 from models import create_tables
 from config import app, conn
+
 # Initialize the database tables
+# uncomment this on first time, db migrations
 # create_tables()
 
 

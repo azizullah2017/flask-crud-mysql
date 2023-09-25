@@ -2,7 +2,7 @@ from config import mysql
 from config import conn
 
 def create_tables():
-    # cursor = mysql.connection.cursor()
+    cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS users (
             id INT AUTO_INCREMENT PRIMARY KEY,
